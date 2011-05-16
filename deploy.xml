@@ -43,6 +43,12 @@
 			</function>
 			<script file="maintenance/LOD_Setup.php" />
 		</new>
+		<update from="110">
+            <patch file="patch_for_SMW1.5.6.txt" ext="smw" from="156" to="156" />
+        </update>
+        <update from="100">
+            <patch file="patch_for_SMW1.5.6.txt" ext="smw" from="156" to="156" />
+        </update>
 		<uninstall>
 			<script file="maintenance/LOD_Setup.php"
 				params="--delete" />
