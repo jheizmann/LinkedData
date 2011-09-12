@@ -1,6 +1,11 @@
 Linked data extension ChangeLog
 ===========================
 
+Version 1.2 patchlevel 1
+
+FEATURES:
+	- Added support for obl: terms in the LODTripleStoreAccess
+
 Version 1.2
 
 FEATURES:
